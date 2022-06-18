@@ -1,0 +1,135 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+himmel övre: #ebe1e0
+himmelnedre: #c5aec2
+koppartak #9ac1b1
+sol: ffb97e
+
+hav: 233853
+*/
+
+body {
+    margin: 0;
+    
+    font-family: 'Inter', sans-serif;
+    
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.size{
+    font-weight: 500;
+}
+.hero{
+    background-image: url("Goteborg.jpeg");
+    background-size: cover;
+    padding: 40px 10px;
+    color:#A8DADC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+
+
+#top{
+    font-size: 30px;
+    background-color:#ffb97e;
+    color:#F1FAEE;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-shadow: 0px 0px 1px black
+   
+    
+}
+
+#topTwo{
+    font-weight: 900;
+    font-size: 15px;
+    background-color:#9ac1b1;
+    color:#F1FAEE;
+    padding: 5px 7px;
+    border-radius: 5px;
+    text-shadow: 0px 0px 1px black;
+   
+    
+}
+.things{
+    background-color:#233853;
+    color: #F1FAEE;
+    padding: 5px 0px;
+    
+    
+    
+}
+.toDo{
+    display: flex; 
+    justify-content: space-around;
+    margin: 0 auto ;
+    padding: 20px 20px;
+    width: 600px;
+   
+    
+    
+}
+.noOne{
+     width: 150px;
+}
+
+.noTwo{
+    width: 150px;
+}
+
+.noThree{
+    width: 150px;
+}
+p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.guide{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 400px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: #ffb97e;
+    border-bottom: 10px solid #9ac1b1;
+    color: #233853;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #233853;
+}
+
+.guideText{
+    width: 200px;
+   
+   
+}
+
+.italic{
+    font-style: italic;
+    
+}
+.elin{
+    width: 150px;
+    height: 150px;
+    border: 6px solid #9ac1b1;
+    border-radius: 5px;
+}
+
+.imgTop {
+    width: 100px;
+    border-radius: 50%;
+}
